@@ -1,0 +1,5 @@
+## Interface: 11200
+## Title: Follow Me 1.0
+## Notes: Get your party members to follow you by typing commands.
+
+FollowMe.lua
