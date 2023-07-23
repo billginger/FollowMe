@@ -7,7 +7,16 @@ f:SetScript("OnEvent", function()
       FollowByName(arg2, true)
       SendChatMessage("following", "PARTY")
     elseif arg1 == "stop" then
-      FollowUnit("player")
+      if GetNumPartyMembers() > 1 then
+        for n = 1, GetNumPartyMembers() do
+          if UnitName("party"..n) ~= arg2 then
+            FollowUnit("party"..n)
+            break
+          end
+        end
+      else
+        FollowUnit("player")
+      end
       SendChatMessage("stoped", "PARTY")
     end
   end
