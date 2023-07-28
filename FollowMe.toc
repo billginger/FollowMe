@@ -1,7 +1,7 @@
 ## Interface: 11200
-## Title: Follow Me 1.0
+## Title: Follow Me
 ## Notes: Get your party members to follow you by typing commands.
-## Version 1.0.0
+## Version 1.0.1
 ## Author: Fenggong Jiang (jfg@163.com)
 ## URL: https://github.com/billginger/FollowMe
 
